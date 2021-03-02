@@ -1,5 +1,5 @@
-<? php
+<?php
 
-require_once("wed/index.html");
+include_once("index.html");
 
 ?>
