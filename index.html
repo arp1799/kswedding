@@ -112,7 +112,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover randback" role="banner" style="background: url(images/bg-0.jpg) no-repeat;" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover randback" role="banner"  data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -624,13 +624,23 @@
 
 	<script type="text/javascript" >
 	// <script type="text/javascript">
-    var imgCount = 3;
+    var imgCount =11;
         var dir = 'images/varbg/';
         var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
         var images = new Array
                 images[1] = "bg-01.jpg",
                 images[2] = "bg-02.jpg",
                 images[3] = "bg-03.jpg",
+				images[4] = "bg-04.jpg",
+				images[5] = "bg-05.jpg",
+				images[6] = "bg-06.jpg",
+				images[7] = "bg-07.jpg",
+				images[8] = "bg-08.jpg",
+				images[9] = "bg-09.jpg",
+				images[10] = "bg-10.jpg",
+				images[11] = "bg-11.jpg",
+				images[12] = "bg-12.jpg",
+				images[13] = "bg-13.jpg",
         document.getElementById("fh5co-header").style.backgroundImage = "url(" + dir + images[randomCount] + ")"; 
    
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
